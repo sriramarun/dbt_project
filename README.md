@@ -46,4 +46,4 @@ Run `dbt docs generate` and `dbt docs serve` to view an interactive site of your
 
 ---
 
-Built as part of the “Modern dbt Blog Series” by [Sriram Krishnan](hhttps://moderndataarchitect.hashnode.dev/series/dbt-series)
+Built as part of the “Modern dbt Blog Series” by [Sriram Krishnan] (https://moderndataarchitect.hashnode.dev/series/dbt-series)
