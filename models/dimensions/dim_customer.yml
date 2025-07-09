@@ -1,0 +1,15 @@
+version: 2
+models:
+  - name: dim_customer
+    description: "Customer dimension table"
+    columns:
+      - name: customer_id
+        tests:
+          - not_null
+      - name: email
+        tests:
+          - unique
+      - name: lifecycle_stage
+        tests:
+          - accepted_values:
+              values: ['trial', 'active', 'churned']

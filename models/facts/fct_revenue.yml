@@ -1,0 +1,10 @@
+version: 2
+models:
+  - name: fct_revenue
+    description: "Monthly recurring revenue fact table"
+    columns:
+      - name: customer_id
+        tests:
+          - relationships:
+              to: ref('dim_customer')
+              field: customer_id

@@ -1,0 +1,12 @@
+version: 2
+seeds:
+  - name: currency_exchange_rates
+    columns:
+      - name: currency
+        tests:
+          - not_null
+          - unique
+      - name: exchange_rate_to_usd
+        tests:
+          - not_null
+          - greater_than: 0

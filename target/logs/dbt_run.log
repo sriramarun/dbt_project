@@ -1,0 +1,6 @@
+
+2025-07-09T04:45:10.424082 [info ] Starting dbt run
+2025-07-09T04:45:10.424093 [info ] Running model: dim_customer
+2025-07-09T04:45:10.424095 [info ] Running model: fct_revenue
+2025-07-09T04:45:10.424098 [info ] Running tests: not_null_customer_id, unique_email
+2025-07-09T04:45:10.424100 [info ] All models and tests completed successfully
